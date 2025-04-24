@@ -31,37 +31,33 @@ const Skills = () => {
         { name: "JavaScript", icon: <Code /> },
         { name: "HTML5/CSS3", icon: <Code /> },
         { name: "Tailwind CSS", icon: <Code /> },
-        { name: "Redux", icon: <LayoutDashboard /> },
+        { name: "Flutter", icon: <Code /> },
+        { name: "MaterialUI", icon: <Code /> },
       ]
     },
     {
       name: "Backend",
       skills: [
         { name: "Node.js", icon: <Server /> },
+        { name: "PHP", icon: <Server /> },
         { name: "Express", icon: <Server /> },
         { name: "Python", icon: <Code /> },
         { name: "REST APIs", icon: <Globe /> },
-        { name: "GraphQL", icon: <Database /> },
         { name: "SQL", icon: <Database /> },
-      ]
-    },
-    {
-      name: "DevOps",
-      skills: [
-        { name: "Docker", icon: <Database /> },
-        { name: "AWS", icon: <Server /> },
-        { name: "CI/CD", icon: <Settings /> },
-        { name: "Kubernetes", icon: <Settings /> },
       ]
     },
     {
       name: "Tools",
       skills: [
         { name: "Git", icon: <GitBranch /> },
-        { name: "Jest", icon: <Terminal /> },
-        { name: "Webpack", icon: <Settings /> },
+        { name: "Redis", icon: <Database /> },
+        { name: "BIND9", icon: <Server /> },
+        { name: "SSH", icon: <Server /> },
         { name: "VS Code", icon: <Terminal /> },
         { name: "Figma", icon: <LayoutDashboard /> },
+        { name: "Postman", icon: <Settings /> },
+        { name: "Docker", icon: <Server /> },
+        { name: "Linux", icon: <Terminal /> },
       ]
     },
   ];

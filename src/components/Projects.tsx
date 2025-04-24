@@ -28,10 +28,10 @@ const ProjectCard: React.FC<{ project: Project; index: number }> = ({ project, i
       <div className="flex flex-col md:flex-row">
         <div className={`md:w-1/2 ${!isEven && 'md:order-2'}`}>
           <div className="h-64 md:h-full overflow-hidden">
-            <img 
-              src={project.image} 
-              alt={project.title} 
-              className="w-full h-full object-cover transition-transform hover:scale-105 duration-300" 
+            <img
+              src={project.image}
+              alt={project.title}
+              className="w-full h-full object-cover transition-transform hover:scale-105 duration-300"
               loading="lazy"
             />
           </div>
@@ -72,28 +72,55 @@ const Projects = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce platform with cart functionality, user authentication, and payment processing.",
-      tech: ["React", "Node.js", "Express", "MongoDB", "Stripe"],
-      image: "https://images.unsplash.com/photo-1661956602116-aa6865609028?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80",
-      demoUrl: "#",
-      githubUrl: "#"
+      title: "Conway's Game of Life",
+      description: "Interactive simulation of Conway's Game of Life, a cellular automaton that evolves based on simple rules.",
+      tech: ["JavaScript", "React", "NodeJS", "Tailwind"],
+      image: "/conway.png",
+      demoUrl: "https://ziyad0081.github.io/conway-react/",
+      githubUrl: "https://github.com/ziyad0081/conway-react"
     },
     {
       id: 2,
-      title: "Task Management App",
-      description: "Kanban-style task management application with drag-and-drop functionality and team collaboration features.",
-      tech: ["TypeScript", "React", "Redux", "Firebase", "Tailwind CSS"],
-      image: "https://images.unsplash.com/photo-1611224885990-ab7363d7f7a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=739&q=80",
+      title: "RV2ML : RV32I to ML",
+      description: "A tool that converts RV32I assembly code to ML code, facilitating the understanding of assembly language and its applications.",
+      tech: ["JavaScript", "React", "Tailwind CSS"],
+      image: "/rv2ml.png",
+      demoUrl: "https://ziyad0081.github.io/rv2ml/",
+      githubUrl: "https://github.com/ziyad0081/rv2ml/"
+    },
+    {
+      id: 3,
+      title: "SwiftRoute : AI Powered Pathfinder for Ambulances in Algiers",
+      description: "An AI-powered pathfinding application that optimizes ambulance routes in Algiers, ensuring timely medical assistance.",
+      tech: ["React", "Flask", "Python", "OSMNX", "Graph Theory", "OpenStreetMap"],
+      image: "/swift.png",
+      demoUrl: "https://ziyad0081.github.io/swift-route/",
+      githubUrl: "https://github.com/ziyad0081/swift-route/"
+    },
+    {
+      id: 4,
+      title: "BIND9 powered DNS server with DNSSEC",
+      description: "A DNS server powered by BIND9, implementing DNSSEC for enhanced security and data integrity.",
+      tech: ["BIND9", "DNSSEC", "Ubuntu Server", "SSH"],
+      image: "/dnssec.png",
       demoUrl: "#",
       githubUrl: "#"
     },
     {
-      id: 3,
-      title: "Weather Dashboard",
-      description: "Real-time weather dashboard with location search, 7-day forecasts, and interactive weather maps.",
-      tech: ["JavaScript", "React", "OpenWeather API", "Chart.js", "Geolocation"],
-      image: "https://images.unsplash.com/photo-1592210454359-9043f067919b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      id: 5,
+      title: "Driving School Management System",
+      description: "A comprehensive management system for driving schools, facilitating student enrollment, scheduling, progress tracking and exam scheduling for managers.",
+      tech: ["React", "TypeScript", "Tailwind CSS", "NodeJS", "Express", "Electron"],
+      image: "/dsms.png",
+      demoUrl: "#",
+      githubUrl: "https://github.com/ENSIA-AI/dsms-electron"
+    },
+    {
+      id: 6,
+      title: "Djezzy Multi-SIM Owners AI Powered Detection",
+      description: "An AI-powered detection system for identifying Djezzy multi-SIM owners in Algeria that relies on graph theory and SNA , enhancing telecom decisions in marketing and other aspects.",
+      tech: ["Machine Learning", "Pandas", "NumPy", "Graph Theory"],
+      image: "/multisim.png",
       demoUrl: "#",
       githubUrl: "#"
     }

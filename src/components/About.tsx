@@ -12,23 +12,13 @@ const About = () => {
   const timelineItems: TimelineItem[] = [
     {
       year: "2023",
-      title: "Open Source Contribution",
-      description: "Major feature contribution to a popular React library with over 5k stars on GitHub."
+      title: "Undergraduate Degree in AI/ML", 
+      description: "Pursuing a degree in Artificial Intelligence and Machine Learning at ENSIA."
     },
     {
       year: "2022",
-      title: "Senior Developer",
-      description: "Led frontend development for a SaaS product serving 50k+ users."
-    },
-    {
-      year: "2020",
-      title: "Tech Startup",
-      description: "Joined an early-stage startup as a full-stack developer, helping scale from MVP to market."
-    },
-    {
-      year: "2018",
-      title: "BS Computer Science",
-      description: "Graduated with honors, specializing in web technologies and algorithms."
+      title: "High School Diploma",
+      description: "Graduated with honors, Experimental Sciences Branch."
     }
   ];
 
@@ -62,14 +52,7 @@ const About = () => {
             <Card className="p-8 h-full">
               <h3 className="text-xl font-semibold mb-4">My Journey</h3>
               <p className="mb-4 text-muted-foreground">
-                I'm a passionate full-stack developer with over 5 years of experience building web applications. 
-                My journey started with simple HTML and CSS, but quickly evolved into complex application development 
-                with modern frameworks and tools.
-              </p>
-              <p className="text-muted-foreground">
-                I'm driven by solving complex problems with elegant solutions and creating user experiences that 
-                delight and inspire. When I'm not coding, you can find me contributing to open-source projects, 
-                writing technical articles, or exploring the outdoors.
+                I'm a CompSci student with three years of hands-on project work, moving easily from theory to practice. I build web applications with React and Tailwind and NodeJS, but I'm just as comfortable debugging network traffic or writing performance critical C++ close to the metal. Whether it's a course assignment or a client demo, I focus on clean code, solid fundamentals, and user focused results.
               </p>
             </Card>
           </div>

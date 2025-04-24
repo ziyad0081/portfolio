@@ -164,7 +164,7 @@ const Contact = () => {
             <h3 className="text-xl font-semibold mb-6">Connect With Me</h3>
             <div className="space-y-6">
               <a 
-                href="mailto:hello@example.com" 
+                href="mailto:omar.ziyad.chaalel@ensia.edu.dz" 
                 className="flex items-center gap-4 hover:text-primary transition-colors duration-300"
                 aria-label="Email me"
               >
@@ -173,12 +173,12 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="font-medium">Email</p>
-                  <p className="text-sm text-muted-foreground">hello@example.com</p>
+                  <p className="text-sm text-muted-foreground">omar.ziyad.chaalel@ensia.edu.dz</p>
                 </div>
               </a>
               
               <a 
-                href="https://linkedin.com" 
+                href="https://www.linkedin.com/in/ziyad-o-chaalel/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="flex items-center gap-4 hover:text-primary transition-colors duration-300"
@@ -189,23 +189,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="font-medium">LinkedIn</p>
-                  <p className="text-sm text-muted-foreground">linkedin.com/in/johndoe</p>
-                </div>
-              </a>
-              
-              <a 
-                href="https://twitter.com" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="flex items-center gap-4 hover:text-primary transition-colors duration-300"
-                aria-label="Follow on Twitter"
-              >
-                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
-                  <Twitter className="text-primary" />
-                </div>
-                <div>
-                  <p className="font-medium">Twitter</p>
-                  <p className="text-sm text-muted-foreground">@johndoe</p>
+                  <p className="text-sm text-muted-foreground">https://www.linkedin.com/in/ziyad-o-chaalel/</p>
                 </div>
               </a>
             </div>
