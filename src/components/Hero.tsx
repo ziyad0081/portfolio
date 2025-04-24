@@ -38,7 +38,7 @@ const Hero = () => {
             <div className="relative">
               <div className="w-32 h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 rounded-full bg-primary/20 absolute -top-4 -left-4 animate-pulse"></div>
               <img 
-                src="/me.jpg" 
+                src="me.jpg" 
                 alt="Developer portrait" 
                 className="w-32 h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 object-cover rounded-full border-4 border-background shadow-xl relative z-10"
               />
