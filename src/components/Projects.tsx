@@ -72,36 +72,36 @@ const Projects = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: "SwiftRoute : AI Powered Pathfinder for Ambulances in Algiers",
-      description: "An AI-powered pathfinding application that optimizes ambulance routes in Algiers, ensuring timely medical assistance.",
-      tech: ["React", "Flask", "Python", "OSMNX", "Graph Theory", "OpenStreetMap"],
-      image: "swift.png",
-      demoUrl: "https://ziyad0081.github.io/swift-route/",
-      githubUrl: "https://github.com/ziyad0081/swift-route/"
+      title: "Business Performance Analytics Dashboard",
+      description: "Built an end-to-end analytics pipeline to analyze retail sales, customer behavior, and product profitability. Developed interactive executive dashboards tracking key business KPIs including revenue, profit margins, customer lifetime value, RFM segmentation, and regional sales performance.",
+      tech: ["Python", "SQL", "Power BI", "Data Analytics", "Predictive Analytics"],
+      image: "analytics.png",
+      demoUrl: "#",
+      githubUrl: "#"
     },
     {
       id: 2,
-      title: "BIND9 powered DNS server with DNSSEC",
-      description: "A DNS server powered by BIND9, implementing DNSSEC for enhanced security and data integrity.",
-      tech: ["BIND9", "DNSSEC", "Ubuntu Server", "SSH"],
-      image: "dnssec.png",
+      title: "QoS-Aware Reinforcement Learning for SDN Routing",
+      description: "Designed and implemented a tabular Q-learning routing agent for adaptive path selection in Software-Defined Networks (SDNs). Developed the complete SDN experimentation framework using Ryu, Mininet, and OpenFlow, with automated traffic generation and QoS monitoring pipeline.",
+      tech: ["Python", "Reinforcement Learning", "Ryu", "Mininet", "OpenFlow", "QoS Monitoring"],
+      image: "sdn.png",
       demoUrl: "#",
       githubUrl: "#"
     },
     {
       id: 3,
-      title: "Driving School Management System",
-      description: "A comprehensive management system for driving schools, facilitating student enrollment, scheduling, progress tracking and exam scheduling for managers.",
-      tech: ["React", "TypeScript", "Tailwind CSS", "NodeJS", "Express", "Electron"],
-      image: "dsms.png",
+      title: "NABA2: Multi-Class Misinformation Detection Corpus for Algerian Darija",
+      description: "Co-led a research team to build the largest multi-class Algerian Darija misinformation corpus with 22,391 annotated instances. Designed a hybrid data pipeline combining social media collection with LLM-assisted augmentation and benchmarked 8 models across classical ML, neural, and transformer architectures.",
+      tech: ["NLP", "Machine Learning", "Transformers", "Python", "Data Annotation", "BiLSTM", "BERT"],
+      image: "naba2.png",
       demoUrl: "#",
-      githubUrl: "https://github.com/ENSIA-AI/dsms-electron"
+      githubUrl: "#"
     },
     {
-      id: 4,
-      title: "Djezzy Multi-SIM Owners AI Powered Detection",
-      description: "An AI-powered detection system for identifying Djezzy multi-SIM owners in Algeria that relies on graph theory and SNA , enhancing telecom decisions in marketing and other aspects.",
-      tech: ["Machine Learning", "Pandas", "NumPy", "Graph Theory"],
+      id: 5,
+      title: "Djezzy Dual-SIM Owners Detection",
+      description: "Developed a graph-based dual-SIM detection framework over a telecom call network containing 1M subscribers and 2M directed interactions. Engineered behavioral similarity features and designed a probabilistic scoring model combining graph-derived signals with CRM attributes.",
+      tech: ["Machine Learning", "Graph Theory", "NetworkX", "Python", "Data Mining", "Social Network Analysis"],
       image: "multisim.png",
       demoUrl: "#",
       githubUrl: "#"

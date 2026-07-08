@@ -17,7 +17,7 @@ const Hero = () => {
               Hi, I'm <span className="text-primary">Chaalel O. Ziyad</span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-xl animate-fade-in" style={{ animationDelay: '0.2s' }}>
-              I craft open-source, academic and learner-centric apps and demos—spanning AI, algorithms, and full stack tech that turn computer science concepts into engaging, real-world experiences.
+              I build AI/ML, data science, and full-stack projects that turn research ideas and data into practical tools, dashboards, and intelligent systems.
             </p>
             <div className="animate-fade-in" style={{ animationDelay: '0.4s' }}>
               <Link 

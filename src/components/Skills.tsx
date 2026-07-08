@@ -9,6 +9,9 @@ import {
   GitBranch,
   Settings, 
   LayoutDashboard,
+  Brain,
+  BarChart3,
+  Zap,
 } from 'lucide-react';
 
 interface Skill {
@@ -60,6 +63,45 @@ const Skills = () => {
         { name: "Linux", icon: <Terminal /> },
       ]
     },
+    {
+      name: "Machine Learning & AI",
+      skills: [
+        { name: "TensorFlow", icon: <Brain /> },
+        { name: "Scikit-learn", icon: <Brain /> },
+        { name: "Transformers", icon: <Brain /> },
+        { name: "Reinforcement Learning", icon: <Zap /> },
+        { name: "NLP", icon: <Brain /> },
+        { name: "Computer Vision", icon: <Brain /> },
+        { name: "RAG Pipelines", icon: <Brain /> },
+        { name: "Hugging Face", icon: <Brain /> },
+      ]
+    },
+    {
+      name: "Data Science & Analytics",
+      skills: [
+        { name: "Python", icon: <Code /> },
+        { name: "Pandas", icon: <BarChart3 /> },
+        { name: "NumPy", icon: <BarChart3 /> },
+        { name: "Data Analysis", icon: <BarChart3 /> },
+        { name: "Power BI", icon: <BarChart3 /> },
+        { name: "Tableau", icon: <BarChart3 /> },
+        { name: "Statistical Analysis", icon: <BarChart3 /> },
+        { name: "Data Visualization", icon: <BarChart3 /> },
+      ]
+    },
+    {
+      name: "Big Data",
+      skills: [
+        { name: "Hadoop", icon: <Server /> },
+        { name: "MapReduce", icon: <Server /> },
+        { name: "HDFS", icon: <Database /> },
+        { name: "YARN", icon: <Server /> },
+        { name: "Graph Theory", icon: <Zap /> },
+        { name: "NetworkX", icon: <Zap /> },
+        { name: "Social Network Analysis", icon: <Zap /> },
+        { name: "Parallel Computing", icon: <Zap /> },
+      ]
+    },
   ];
 
   useEffect(() => {
@@ -87,7 +129,7 @@ const Skills = () => {
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-12 reveal">Skills & Technologies</h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {skillCategories.map((category, categoryIndex) => (
             <div 
               key={category.name} 
